@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-image: url("netflix-c.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #1a1a1a;
+  color: #fff;
+  width: 100vh;
+  height: 100vh;
+}
+
+/* nav bar */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+#title {
+  font-size: 30px;
+  color: red;
+  font-weight: bold;
+}
+
+.nav-button {
+  margin-left: 10px;
+  padding: 10px 15px;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.nav-button:hover {
+  opacity: 0.7;
+}
+
+#idioma {
+  background-color: #333;
+  color: #fff;
+}
+
+#entrar {
+  background-color: red;
+  color: #fff;
+}
+
+/* main */
+
+main {
+  margin-top: 25vh;
+  text-align: center;
+}
+
+.main-content {
+  padding: 20px;
+  text-align: center;
+  margin: auto;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+#msg {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+main p {
+  font-size: 1rem;
+  margin: 10px 0;
+}
+
+input {
+  padding: 10px;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  width: 250px;
+  max-width: 100%;
+  margin-right: 10px;
+}
+
+#btn-vm {
+  background-color: red;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+#btn-vm:hover {
+  opacity: 0.7;
+}
